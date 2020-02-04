@@ -79,6 +79,8 @@ Options:
 
 The tool is structured to allow developers plugin any import and/or export logic of any file format. Also develop custom validations to be used while processing data. This is achieved by modularizing major components of the tool. The diagram below shows the break-down.
 
+![Image description]("/image.png")
+
 +---------+       +------------------------+    +----------+
 | Importer|       |       Processor        |    | Exporter |
 |         |       |                        |    |          |
