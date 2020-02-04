@@ -1,0 +1,11 @@
+version: "3"
+services:
+  trivago-cli:
+    container_name: trivago-cli
+    image: trivago-converter-cli
+    build:
+      context: ./converter
+      dockerfile: ./conf/Dockerfile
+    volumes:
+      - ./converter/files:/code/files
+    command: start
