@@ -1,4 +1,4 @@
-# Trivago File Format Converter
+# Data File Format Converter
 
 A Command Line data file format converter. It accepts a data file, converts and saves in other file formats.
 
